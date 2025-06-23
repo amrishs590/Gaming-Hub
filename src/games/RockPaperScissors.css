@@ -1,0 +1,30 @@
+.rps-container {
+  text-align: center;
+  padding: 30px;
+  font-family: sans-serif;
+}
+
+.rps-buttons {
+  margin: 20px 0;
+}
+
+.rps-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  border: 2px solid #333;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.rps-buttons button:hover {
+  background-color: #ccc;
+}
+
+.rps-result {
+  margin-top: 20px;
+  font-size: 20px;
+}
