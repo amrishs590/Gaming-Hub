@@ -1,26 +1,35 @@
 .snake-container {
   text-align: center;
   padding: 20px;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  min-height: 100vh;
 }
 
 .board {
   display: grid;
-  grid-template-columns: repeat(15, 20px);
-  margin: 20px auto;
+  grid-template-columns: repeat(15, 24px);
+  margin: 32px auto;
   width: fit-content;
+  background: rgba(255,255,255,0.7);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(253, 160, 133, 0.15);
+  padding: 12px;
 }
 
 .cell {
-  width: 20px;
-  height: 20px;
-  border: 1px solid #ccc;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #fda085;
+  border-radius: 4px;
 }
 
 .snake {
-  background-color: #444;
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  box-shadow: 0 2px 8px rgba(67, 233, 123, 0.18);
 }
 
 .food {
-  background-color: red;
+  background: radial-gradient(circle, #f857a6 60%, #ff5858 100%);
+  box-shadow: 0 2px 8px rgba(248, 87, 166, 0.18);
 }
