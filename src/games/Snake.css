@@ -1,0 +1,26 @@
+.snake-container {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(15, 20px);
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+}
+
+.snake {
+  background-color: #444;
+}
+
+.food {
+  background-color: red;
+}
